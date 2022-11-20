@@ -27,11 +27,7 @@ if __name__ == '__main__':
 	
 	edges = [(0, 1), (1, 2), (2, 0), (2, 1), (3, 2), (4,0),(4, 5), (4,9),(5,1),(5,3),(5, 4), (0,5),(3,5) , (6,0), (6,3) ,(1,6), (6,4), (8,1), (9,0),(7,0), (7,2),(7,5)]
 
-	# No. of vertices (labelled from 0 to 5)
+	
 	n = 12
-
-	# construct a graph from a given list of edges
 	graph = Graph(edges, n)
-
-	# print adjacency list representation of the graph
 	printGraph(graph)
